@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo python3 ./slapBot/slpScript.py
+export token="insert your api socket token here"
+sudo python3 ./slapBot/slpScript.py $token
