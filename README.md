@@ -17,7 +17,7 @@
 
 <h3> Easy Install </h3>
 <p>
-	If you have a debian base operating systeme you can execute the easyInstal.sh file 
+	If you have a debian base operating systeme you can execute the easyInstall.sh file 
 	it will install every dipendencies using
 	pip3 and apt-get. This install is recommended for users not familiar with linux.
 </p>
