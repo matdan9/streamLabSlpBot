@@ -44,8 +44,8 @@ def main():
 	print("starting slapping bot!")
 	print("GET READY")
 	loadConfig()
-	if(len(sys.argv) < 2 or sys.argv[1] is None):
-		print("you must init this with an socketapi token")
+	if(len(sys.argv) != 2 or sys.argv[1] is None):
+		print("you must init this with a socketapi token")
 		return
 	initSocketio()
 	initGpio()
@@ -82,7 +82,7 @@ def loadConfig():
 def getConfigFileContent():
 	f = None;
 	try:
-		f = open("/opt/slpConfig.json")
+		f = open("/etc/slpConfig.json")
 	except:
 		f = open("./slapBot/slpConfig.json")
 	return f.read()
@@ -94,14 +94,6 @@ try:
 except KeyboardInterrupt: # If CTRL+C is pressed, exit cleanly:
 	print("Keyboard interrupt")
 	GPIO.cleanup()
-
-
-except:
-	print("some error") 
-
-finally:
-	print("clean up") 
-	GPIO.cleanup() # cleanup all GPIO 
 
 
 main()
