@@ -17,22 +17,23 @@
 
 ###Easy Install
 <p>
-	If you have a debian base operating systeme you can execute the easyInstal it will install every dipendencies using
+	If you have a debian base operating systeme you can execute the easyInstal.sh file 
+	it will install every dipendencies using
 	pip3 and apt-get. This install is recommended for users not familiar with linux.
 </p>
 
 ```
-$./easyInstall
+$./easyInstall.sh
 ```
 
 ###Install
 <p>
 	If you are familiar with linux and or alreay have python3 and pip3 installed you can simply execute the 
-	install file wich will install every python dependencies required
+	install.sh file wich will install every python dependencies required
 </p>
 
 ```
-$./install
+$./install.sh
 ```
 
 ###Configurin Socket API Token
