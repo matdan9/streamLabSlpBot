@@ -26,7 +26,7 @@
 $./easyInstall.sh
 ```
 
-<h1> Install </h1>
+<h3> Install </h3>
 <p>
 	If you are familiar with linux and or alreay have python3 and 
 	pip3 installed you can simply execute the 
