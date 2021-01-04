@@ -9,7 +9,7 @@
 	The software is made in Python wich make easy to modify and port to other device type
 	but the current configuration, installatiion setup and the easy installaion setup has been 
 	designed for a raspberry pi reunning a debian base linux distribution such as 
-	[raspbian](https://www.raspbian.org/). A 3.3 volt output is emited to pin 7 (GPIO) (this can be changed if you
+	<a href="https://www.raspbian.org/">raspbian</a>. A 3.3 volt output is emited to pin 7 (GPIO) (this can be changed if you
 	modify the source code)
 </p>
 
@@ -40,7 +40,7 @@ $./install.sh
 <h3> Configurin Socket API Token </h3>
 <p>
 	To interact with streamlabs, the bot will the 
-	[socket API token](https://streamlabs.com/dashboard#/settings/api-settings) 
+	<a href="https://streamlabs.com/dashboard#/settings/api-settings">socket API token</a> 
 	wich allows you to identefy yourself to streamlabs.
 	You can copy paste you token in /usr/lib/slp in the indicaded space
 </p>
