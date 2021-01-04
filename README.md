@@ -4,7 +4,7 @@
 	donations, subscription, etc.
 </p>
 
-#Hardware 
+<h1>Hardware</h1> 
 <p>
 	The software is made in Python wich make easy to modify and port to other device type
 	but the current configuration, installatiion setup and the easy installaion setup has been 
