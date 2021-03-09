@@ -37,7 +37,7 @@ $./easyInstall.sh
 $./install.sh
 ```
 
-<h3> Configurin Socket API Token </h3>
+<h3> Configuring the Socket API Token </h3>
 <p>
 	To interact with streamlabs, the bot will use the 
 	<a href="https://streamlabs.com/dashboard#/settings/api-settings">socket API token</a> 
