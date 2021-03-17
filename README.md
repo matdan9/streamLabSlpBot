@@ -6,9 +6,9 @@
 
 <h1>Hardware</h1> 
 <p>
-	The software is made in Python wich make easy to modify and port to other device types,
+	The software is made in Python which makes it easy to modify and port to other device types,
 	but the current "configuration", "installation setup" and "the easy installaion setup" has been 
-	designed for a raspberry pi reunning a debian base linux distribution such as 
+	designed for a raspberry pi running a debian base linux distribution such as 
 	<a href="https://www.raspbian.org/">raspbian</a>. A 3.3 volt output is emited to pin 7 (GPIO) (this can be changed only if you
 	modify the source code for now)
 </p>
@@ -61,7 +61,7 @@ clean up
 
 <h1> Configuration </h1>
 <p>
-	You can configure which event triggers the bot and what amount (when it comes to bits and donations).
+	You can configure which event triggers the bot and at what amount (when it comes to bits and donations).
 	Keep in mind that the donation is not put to scale with a specific curency which means
 	5$ and 5€ will be worth the same amount (5). The config file /etc/slpConfig.json is an array of object (rules)
 	which look like this.
@@ -83,12 +83,12 @@ clean up
 </p>
 <p>
 	The "value" property represents the 
-	threashold at which the bot gets triggered. In this example above, 70 is the minimum 
+	threashold at which the bot gets triggered. In this example, 70 is the minimum 
 	amount of for the bot to get triggered, when it comes to donations. 
 </p>
 <p>
 	The property "on" simply 
-	indicates to the bot if the rule is active, false the bot will ignore the rule,
-	true the bot will use the rule. Keep in mind that every time you change a rule (the config file), 
+	indicates to the bot if the rule is active, ```false``` the bot will ignore the rule,
+	```true``` the bot will use the rule. Keep in mind that every time you change a rule (the config file), 
 	you must restart the bot.
 </p>
